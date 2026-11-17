@@ -5,21 +5,28 @@ Alleen standaardbibliotheek. Gebruik: python3 build.py
 """
 import html
 import json
+import re
 from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).parent
 EDITIONS = ROOT / "editions"
 PUBLIC = ROOT / "public"
-TITLE = "Het Advertentie Dagblad"
+TITLE = "Advertising Dagblad"
+LOGO_SVG = (PUBLIC / "img" / "techonomy-logo.svg").read_text(encoding="utf-8")
 
 MONTHS = ["januari", "februari", "maart", "april", "mei", "juni", "juli",
           "augustus", "september", "oktober", "november", "december"]
 DAYS = ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"]
+IMPACT_ORDER = {"hoog": 0, "middel": 1, "laag": 2}
 
 
 def e(s):
     return html.escape(str(s), quote=True)
+
+
+def slug(s):
+    return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
 
 
 def nl_date(iso):
@@ -28,70 +35,88 @@ def nl_date(iso):
 
 
 def sources(srcs):
-    links = " · ".join(
-        f'<a href="{e(s["url"])}" target="_blank" rel="noopener">{e(s["name"])}</a>' for s in srcs
+    if not srcs:
+        return ""
+    links = "".join(
+        f'<a href="{e(s["url"])}" target="_blank" rel="noopener">{e(s["name"])} ↗</a>' for s in srcs
     )
-    return f'<p class="src">Bron: {links}</p>' if links else ""
+    return f'<div class="src">{links}</div>'
+
+
+def impact_chip(level):
+    level = level if level in IMPACT_ORDER else "laag"
+    return f'<span class="chip chip-{level}">{level} impact</span>'
 
 
 def render_edition(ed, number, prev_date, next_date, prefix):
     lead = ed["lead"]
+    sections = ed.get("sections", [])
+    all_items = [it for sec in sections for it in sec["items"]]
+    n_high = sum(1 for it in all_items if it.get("impact") == "hoog")
+
+    # Snelnavigatie per rubriek
+    toc = "".join(
+        f'<a href="#{slug(sec["name"])}">{e(sec["name"])} <span>{len(sec["items"])}</span></a>'
+        for sec in sections
+    )
+
     lead_html = f"""
-    <article class="lead">
-      <p class="kicker">{e(lead["kicker"])}</p>
-      <h2>{e(lead["title"])}</h2>
-      <div class="lead-body">
+      <article class="card lead">
+        <p class="kicker">Hoofdartikel · {e(lead["kicker"])}</p>
+        <h2>{e(lead["title"])}</h2>
         {''.join(f'<p>{e(p)}</p>' for p in lead["summary"])}
-        <aside class="why"><strong>Wat betekent dit voor ons?</strong> {e(lead["why"])}</aside>
+        <div class="why"><h3>Wat betekent dit voor ons?</h3><p>{e(lead["why"])}</p></div>
         {sources(lead.get("sources", []))}
-      </div>
-    </article>"""
+      </article>"""
 
     sections_html = ""
-    for sec in ed.get("sections", []):
-        items = "".join(
+    for sec in sections:
+        items = sorted(sec["items"], key=lambda it: IMPACT_ORDER.get(it.get("impact"), 2))
+        cards = "".join(
             f"""
-        <article class="item">
-          <span class="impact impact-{e(it.get('impact', 'laag'))}">{e(it.get('impact', 'laag'))} impact</span>
-          <h4>{e(it["title"])}</h4>
-          <p>{e(it["summary"])}</p>
-          {sources(it.get("sources", []))}
-        </article>"""
-            for it in sec["items"]
+          <article class="card item item-{e(it.get('impact', 'laag'))}">
+            {impact_chip(it.get("impact", "laag"))}
+            <h4>{e(it["title"])}</h4>
+            <p>{e(it["summary"])}</p>
+            {sources(it.get("sources", []))}
+          </article>"""
+            for it in items
         )
         sections_html += f"""
-      <section class="section">
-        <h3>{e(sec["name"])}</h3>{items}
+      <section class="section" id="{slug(sec["name"])}">
+        <h3 class="section-title">{e(sec["name"])}</h3>
+        <div class="grid">{cards}
+        </div>
       </section>"""
 
+    actions = "".join(f"<li>{e(a)}</li>" for a in ed.get("actions", []))
     briefs = "".join(
-        f'<li><a href="{e(b["url"])}" target="_blank" rel="noopener">{e(b["title"])}</a> <span>{e(b["source"])}</span></li>'
+        f'<li><a href="{e(b["url"])}" target="_blank" rel="noopener">{e(b["title"])}</a><span>{e(b["source"])}</span></li>'
         for b in ed.get("briefs", [])
     )
-    actions = "".join(f"<li>{e(a)}</li>" for a in ed.get("actions", []))
 
     nav = []
     if prev_date:
-        nav.append(f'<a href="{prefix}editie/{prev_date}.html">← Vorige editie</a>')
+        nav.append(f'<a href="{prefix}editie/{prev_date}">← Vorige editie</a>')
     nav.append(f'<a href="{prefix}archief/">Archief</a>')
     if next_date:
-        nav.append(f'<a href="{prefix}editie/{next_date}.html">Volgende editie →</a>')
+        nav.append(f'<a href="{prefix}editie/{next_date}">Volgende editie →</a>')
 
-    sidebar = ""
+    top = ""
     if actions:
-        sidebar += f'<div class="box actions"><h3>Actiepunten</h3><ol>{actions}</ol></div>'
-    if briefs:
-        sidebar += f'<div class="box briefs"><h3>Kort nieuws</h3><ul>{briefs}</ul></div>'
+        top += f'<aside class="card actions"><h3>Actiepunten vandaag</h3><ol>{actions}</ol></aside>'
 
     body = f"""
-  <div class="layout">
-    <main>{lead_html}
-      <div class="sections">{sections_html}
-      </div>
-    </main>
-    <aside class="sidebar">{sidebar}</aside>
-  </div>
-  <nav class="edition-nav">{' '.join(nav)}</nav>"""
+    <div class="summary-bar">
+      <span><strong>{len(all_items)}</strong> berichten</span>
+      <span><strong>{n_high}</strong> met hoge impact</span>
+      <nav class="toc">{toc}</nav>
+    </div>
+    <div class="top">{lead_html}{top}
+    </div>
+    {sections_html}
+    {f'<section class="section"><h3 class="section-title">Kort nieuws</h3><ul class="card briefs">{briefs}</ul></section>' if briefs else ''}
+    <nav class="edition-nav">{''.join(nav)}</nav>"""
     return page(f"{TITLE} · {nl_date(ed['date'])}", nl_date(ed["date"]), number, body, prefix)
 
 
@@ -101,22 +126,31 @@ def page(title, datestr, number, body, prefix):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
 <title>{e(title)}</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=Inter:wght@500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{prefix}style.css">
 </head>
 <body>
-<div class="paper">
-  <header class="masthead">
-    <div class="meta-row"><span>{e(datestr)}</span><span>Google Ads · Social · Search · Privacy</span><span>{e(number)}</span></div>
+<header class="masthead">
+  <div class="wrap">
+    <div class="brand-row">
+      <a class="logo" href="{prefix}" aria-label="Techonomy">{LOGO_SVG}</a>
+      <span class="meta">{e(number)}</span>
+    </div>
     <h1><a href="{prefix}">{TITLE}</a></h1>
-    <p class="tagline">Elke ochtend het belangrijkste advertentienieuws, samengevat voor het team</p>
-  </header>
+    <p class="date">{e(datestr)}</p>
+    <p class="tagline">Het belangrijkste nieuws over Google Ads, social advertising, search en privacy, elke ochtend samengevat.</p>
+  </div>
+</header>
+<main class="wrap">
   {body}
-  <footer>Automatisch samengesteld uit Google, Meta, TikTok, LinkedIn, Microsoft, Search Engine Land, Search Engine Roundtable, PPC Land, Social Media Today, Emerce, Adformatie, Frankwatching en meer. Controleer de bron voordat je handelt.</footer>
-</div>
+</main>
+<footer>
+  <div class="wrap">Automatisch samengesteld uit officiële platformblogs, Search Engine Land, Search Engine Roundtable, PPC Land, Social Media Today, Emerce, Adformatie en meer. Controleer altijd de bron voordat je handelt.</div>
+</footer>
 </body>
 </html>
 """
@@ -143,11 +177,11 @@ def main():
                 render_edition(ed, num, prev_d, None, ""), encoding="utf-8")
 
     rows = "".join(
-        f'<li><a href="../editie/{ed["date"]}.html"><span class="adate">{e(nl_date(ed["date"]))}</span>'
+        f'<li><a href="../editie/{ed["date"]}"><span class="adate">{e(nl_date(ed["date"]))}</span>'
         f'<span class="atitle">{e(ed["lead"]["title"])}</span></a></li>'
         for ed in reversed(eds)
     )
-    archive = f'<main class="archive"><h2>Archief</h2><ul>{rows}</ul></main>'
+    archive = f'<section class="section"><h3 class="section-title">Archief</h3><ul class="card archive">{rows}</ul></section>'
     (PUBLIC / "archief" / "index.html").write_text(
         page(f"{TITLE} · Archief", nl_date(eds[-1]["date"]), f"{len(eds)} edities", archive, "../"),
         encoding="utf-8")
