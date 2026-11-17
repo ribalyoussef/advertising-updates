@@ -1,0 +1,169 @@
+{
+  "date": "2026-11-17",
+  "lead": {
+    "kicker": "Google Ads · Beleid",
+    "title": "Google verbiedt targeting op interesse in verboden categorieën",
+    "summary": [
+      "Google heeft op 11 november het Personalized Advertising Policy aangescherpt. Adverteerders mogen gebruikers niet langer targeten op basis van interesse in categorieën die op het advertentienetwerk zelf al verboden zijn. Ook de Restricted targeting-policy kreeg een regel die dit expliciet uitsluit.",
+      "Volgens Search Engine Land is het geen algemeen verbod op gevoelige onderwerpen: het gaat specifiek om interesse in categorieën die Google al niet toestaat. Tegelijk verschenen er policy-updates over 'unacceptable business practices' en over gezondheidszorg en medicijnen, en moet in meer regio's worden aangegeven of AI is gebruikt in advertenties."
+    ],
+    "why": "Controleer custom segments en doelgroepen die leunen op gevoelige zoek- of interessesignalen, vooral bij klanten in zorg, financiën en kansspelen. Afgekeurde doelgroepen kunnen campagnes ongemerkt beperken.",
+    "sources": [
+      {"name": "Google Ads Policy Help", "url": "https://support.google.com/adspolicy/answer/18873108"},
+      {"name": "Search Engine Land", "url": "https://searchengineland.com/google-ads-clarifies-personalized-advertising-restrictions-for-four-categories-502198"}
+    ]
+  },
+  "sections": [
+    {
+      "name": "Google Ads",
+      "items": [
+        {
+          "title": "Smart Bidding-leerperiode ingekort naar 7 dagen",
+          "summary": "De leerstatus van Smart Bidding duurt nu maximaal 7 dagen. Daarnaast is er een nieuwe ValueTrack-parameter waarmee je verkeer uit AI Max herkent in je eigen analytics.",
+          "impact": "hoog",
+          "sources": [{"name": "Common Thread (wekelijks overzicht)", "url": "https://commonthreadco.com/blogs/coachs-corner/google-ads-changes-2026"}]
+        },
+        {
+          "title": "Ads in AI Mode nu ook bij vervolgvragen",
+          "summary": "Multiturn-ads, die verschijnen bij vervolgvragen in AI Mode, zijn live. Google test daarnaast meer AI-gegenereerde samenvattingen binnen zoekadvertenties.",
+          "impact": "middel",
+          "sources": [{"name": "Search Engine Roundtable", "url": "https://www.seroundtable.com/recap-11-12-2026-42521.html"}]
+        },
+        {
+          "title": "Nieuwe Invalid Traffic-kaart in het overzicht",
+          "summary": "Google rolt een IVT-overzichtskaart uit die laat zien tegen hoeveel ongeldig verkeer je account is beschermd. Tegelijk verschenen Google Ads API v26.2 en Ads Editor 2.14.",
+          "impact": "laag",
+          "sources": [{"name": "Search Engine Roundtable", "url": "https://www.seroundtable.com/video-11-13-2026-42523.html"}]
+        },
+        {
+          "title": "Attributed Branded Searches meet merkeffect van video",
+          "summary": "Sinds 3 november meet een gratis tool hoeveel mensen na het zien van een Demand Gen- of YouTube-advertentie op je merk zoeken in Google of YouTube.",
+          "impact": "middel",
+          "sources": [{"name": "Common Thread (wekelijks overzicht)", "url": "https://commonthreadco.com/blogs/coachs-corner/google-ads-changes-2026"}]
+        },
+        {
+          "title": "Performance Max: uitsluiting op huishoudinkomen",
+          "summary": "PMax ondersteunt nu uitsluitingen op huishoudinkomen per campagne. De nieuwe schakelaar 'Sourced videos' staat standaard aan: loop dit na als je merkcontrole over video belangrijk vindt.",
+          "impact": "middel",
+          "sources": [{"name": "Common Thread (wekelijks overzicht)", "url": "https://commonthreadco.com/blogs/coachs-corner/google-ads-changes-2026"}]
+        },
+        {
+          "title": "Deal Ends-annotatie niet meer experimenteel; opt-in voor pay-per-lead",
+          "summary": "De 'Deal ends'-annotatie op Shopping-advertenties is uit de testfase. Ook verschijnt een nieuwe opt-in-instelling 'Ads with pay-per-lead goals terms' en test Google een sectie 'Asset Activity'.",
+          "impact": "laag",
+          "sources": [{"name": "Search Engine Roundtable", "url": "https://www.seroundtable.com/recap-11-13-2026-42531.html"}]
+        }
+      ]
+    },
+    {
+      "name": "Meta",
+      "items": [
+        {
+          "title": "Video-ads optimaliseren op 6 seconden ThruPlay",
+          "summary": "Adverteerders kunnen video's nu optimaliseren op een ThruPlay van 6 seconden in plaats van 15. Interessant voor korte Reels-creatives, maar vergelijk niet zomaar met oude ThruPlay-cijfers.",
+          "impact": "middel",
+          "sources": [{"name": "PPC Land", "url": "https://ppc.land/six-seconds-can-now-count-as-a-watched-video-ad-on-meta/"}]
+        },
+        {
+          "title": "Pixel meet meer conversies op het apparaat",
+          "summary": "Sinds 12 november telt een nieuwe Pixel-instelling meer conversies die op het apparaat van de klant worden gemeten. Verwacht een verschuiving in gerapporteerde conversies rond die datum.",
+          "impact": "hoog",
+          "sources": [{"name": "AdManage", "url": "https://admanage.ai/blog/meta-ads-update"}]
+        },
+        {
+          "title": "Onduidelijkheid over nieuwe advertentievoorwaarden",
+          "summary": "Bronnen spreken elkaar tegen: volgens de ene gelden nieuwe Commercial en Self-Serve Ad Terms vanaf 20 november, volgens de andere heeft Meta ze op 5 november zonder nieuwe datum gepauzeerd. Check de melding in Business Manager.",
+          "impact": "middel",
+          "sources": [{"name": "Adsuploader", "url": "https://adsuploader.com/blog/meta-ads-updates"}, {"name": "AdAdvisor", "url": "https://adadvisor.ai/blog/meta-ads-updates-2026"}]
+        },
+        {
+          "title": "Marketing API v27.0 uit, v24.0 vervallen",
+          "summary": "Meta bracht op 4 november Graph en Marketing API v27.0 uit; v24.0 is sinds 10 november niet meer beschikbaar. Relevant voor koppelingen en rapportagetools.",
+          "impact": "laag",
+          "sources": [{"name": "SocialBee", "url": "https://socialbee.com/blog/facebook-updates/"}]
+        }
+      ]
+    },
+    {
+      "name": "TikTok, LinkedIn & overig social",
+      "items": [
+        {
+          "title": "TikTok: AI-video's tot 30 seconden en Symphony Suite",
+          "summary": "De AI-videotools van TikTok maken nu video's tot 30 seconden (was 15). Symphony Suite bundelt creatie, automatisering en API, met een Symphony Agent die adviseert over je advertenties.",
+          "impact": "middel",
+          "sources": [{"name": "SocialBee", "url": "https://socialbee.com/blog/tiktok-updates-news-features/"}]
+        },
+        {
+          "title": "LinkedIn test pre-roll bij video's van creators",
+          "summary": "LinkedIn test advertenties vóór video's van creators, met inkomstendeling. Voorlopig alleen in de VS en met geselecteerde adverteerders.",
+          "impact": "laag",
+          "sources": [{"name": "SocialBee", "url": "https://socialbee.com/blog/linkedin-updates"}]
+        }
+      ]
+    },
+    {
+      "name": "Microsoft Advertising",
+      "items": [
+        {
+          "title": "AI Max krijgt landingspagina-inzichten",
+          "summary": "Een nieuw zoekterm-landingspaginarapport voor AI Max for Search laat zien welke zoekopdrachten op welke pagina's landen. Ook zoektermrapportage en negatieve zoekwoorden zijn makkelijker te beheren.",
+          "impact": "middel",
+          "sources": [{"name": "Search Engine Land", "url": "https://searchengineland.com/microsoft-advertising-adds-ai-max-landing-page-insights-502185"}]
+        },
+        {
+          "title": "Nieuwe interface na klachten van adverteerders",
+          "summary": "Microsoft heeft de campagnebeheer-interface vernieuwd en voegt Bid Strategy Reports toe (doel versus werkelijk). Let op: sommige features zijn teruggezet naar pilotstatus.",
+          "impact": "laag",
+          "sources": [{"name": "PPC Land", "url": "https://ppc.land/microsoft-advertising-overhauls-interface-after-advertiser-complaints/"}]
+        }
+      ]
+    },
+    {
+      "name": "Search & AI",
+      "items": [
+        {
+          "title": "Core update loopt mogelijk tot vlak voor Black Friday",
+          "summary": "De November 2026 core update startte op 10 november en kan nog tot kort voor Black Friday doorlopen. Schommelingen in organisch verkeer kunnen betaalde campagnes beïnvloeden: let op verschuivingen in brand-zoekvolume.",
+          "impact": "hoog",
+          "sources": [{"name": "PPC Land", "url": "https://ppc.land/googles-core-update-may-run-until-three-days-before-black-friday/"}]
+        },
+        {
+          "title": "AI Overviews voor merkzoekopdrachten uit de hoofdresultaten",
+          "summary": "Google verplaatst AI Overviews bij merkzoekopdrachten uit de hoofdresultaten. Search Console splitst merkverkeer nu ook via de API, terug tot 21 februari.",
+          "impact": "middel",
+          "sources": [{"name": "PPC Land", "url": "https://ppc.land/google-moves-ai-overviews-for-brand-searches-out-of-the-main-results/"}]
+        }
+      ]
+    },
+    {
+      "name": "Nederland",
+      "items": [
+        {
+          "title": "Adverteren in ChatGPT levert fractie op van Google Ads",
+          "summary": "Uitgebreid onderzoek waarover Adformatie bericht laat zien dat advertenties in ChatGPT voorlopig maar een fractie opleveren van wat Google Ads oplevert.",
+          "impact": "middel",
+          "sources": [{"name": "Adformatie", "url": "https://www.adformatie.nl/nieuws"}]
+        },
+        {
+          "title": "Hack via advertentiepartner raakt Nederlandse nieuwssites",
+          "summary": "Een hack bij een advertentiepartner bereikte minstens twaalf Nederlandse websites. Waarschuwingen verschenen op 14 november.",
+          "impact": "laag",
+          "sources": [{"name": "DutchCowboys", "url": "https://dutchcowboys.nl/cybercrime/hack-via-advertenties-nederlandse-nieuwssites"}]
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {"title": "Taboola rondt overname Dianomi af (tot £27 mln)", "source": "PPC Land", "url": "https://ppc.land/taboola-acquires-dianomi-for-19m-upfront-and-up-to-27m-in-total/"},
+    {"title": "Google Maps-AI belt kappers en garages voor afspraken (VS); Europa volgt later", "source": "PPC Land", "url": "https://ppc.land/google-maps-ai-starts-phoning-salons-as-amazon-rewrites-its-ad-rulebook/"},
+    {"title": "Microsoft 365-storing kan Outlook-advertentieverkeer hebben geraakt", "source": "Search Engine Roundtable", "url": "https://www.seroundtable.com/microsoft-365-outages-microsoft-ads-42533.html"},
+    {"title": "Baidu: advertentie-omzet daalt 22%, AI-cloud groeit 94%", "source": "PPC Land", "url": "https://ppc.land/baidu-ad-revenue-drops-22-as-ai-cloud-infrastructure-sales-nearly-double/"},
+    {"title": "Hypr Media en Plus Retail Media verkopen samen digitale schermen", "source": "Adformatie", "url": "https://www.adformatie.nl/nieuws"}
+  ],
+  "actions": [
+    "Loop doelgroepen en custom segments na op gevoelige categorieën (nieuw Google-beleid).",
+    "Check in PMax-campagnes of 'Sourced videos' aan moet blijven.",
+    "Noteer 12 november als meetbreuk in Meta-rapportages (Pixel-wijziging).",
+    "Houd brand-zoekvolume in de gaten tijdens de core update, richting Black Friday."
+  ]
+}
