@@ -1,0 +1,160 @@
+{
+  "date": "2026-11-20",
+  "lead": {
+    "kicker": "Microsoft Advertising · Bidding en AI-plaatsingen",
+    "title": "Microsoft vernieuwt automatisch bieden en toont ads in Bing AI Overviews",
+    "summary": [
+      "Microsoft Advertising kondigde op 18 november een upgrade van de automatische biedmodellen aan, volgens het bedrijf de grootste in tien jaar. Voor Maximize Conversion Value en Target ROAS meldt Microsoft gemiddeld 10% meer conversiewaarde per klik bij een vergelijkbare ROAS. De cijfers komen uit eigen data over juni tot en met september 2026, zonder vermelde steekproef of methode. Lees ze dus als richting, niet als garantie.",
+      "Een dag later, op 19 november, volgde de uitrol van advertenties in Bing AI Overviews in alle markten behalve China. Adverteerders komen daar via Performance Max en AI Max in terecht, er is geen aparte campagnesoort. Daarnaast rolt Microsoft URL-inclusies voor AI Max uit, waarmee je AI Max naar specifieke pagina's kunt sturen. Ook meldt Microsoft een vernieuwde interface met Bid Strategy Reports, waarmee je biddoelen naast de werkelijke resultaten legt."
+    ],
+    "why": "Check bij klanten met Microsoft-budget welke campagnes op Maximize Conversion Value of Target ROAS staan, en leg de resultaten van de komende weken vast als vergelijkingsbasis. Controleer ook of AI Max en PMax-campagnes nu ongemerkt in AI Overviews meeliften, en stel URL-inclusies bewust in.",
+    "sources": [
+      {"name": "Search Engine Land", "url": "https://searchengineland.com/microsoft-advertising-upgrades-automated-bidding-for-faster-more-consistent-results-502328"},
+      {"name": "PPC Land", "url": "https://ppc.land/microsoft-rebuilds-its-bid-model-citing-10-more-value-per-click/"},
+      {"name": "Microsoft Advertising blog", "url": "https://about.ads.microsoft.com/en/blog/post/november-2026/put-ai-to-work-engaging-customers-in-more-places-whats-new-in-microsoft-advertising-this-november"}
+    ]
+  },
+  "sections": [
+    {
+      "name": "Google Ads",
+      "items": [
+        {
+          "title": "Data Manager: hashen van klantdata niet meer verplicht",
+          "summary": "Sinds 16 november hoeft klantdata niet meer vooraf met SHA-256 te zijn gehasht bij uploads via Google Ads Data Manager. Heb je een eigen pre-hashing-pipeline, controleer dan of uploads nog goed lopen.",
+          "impact": "middel",
+          "sources": [{"name": "Common Thread (wekelijks overzicht)", "url": "https://commonthreadco.com/blogs/coachs-corner/google-ads-changes-2026"}]
+        },
+        {
+          "title": "Seizoensaanpassingen voor Demand Gen met Target CPA of ROAS",
+          "summary": "Google noemt in de Demand Gen Drop van november seizoensaanpassingen als nieuwe mogelijkheid voor Demand Gen met Target CPA of Target ROAS. Een bijbehorende helppagina noemde Demand Gen op 19 november nog niet, dus controleer eerst of de optie in je eigen account staat.",
+          "impact": "middel",
+          "sources": [{"name": "Relevant Audience", "url": "https://www.relevantaudience.com/google-ads-en/google-november-2026-demand-gen-drop-feeds-checkout-seasonality/"}]
+        },
+        {
+          "title": "Ads Editor 2.14 zet AI Max standaard aan bij nieuwe Search-campagnes",
+          "summary": "In Editor 2.14 staan AI Max, automatisering van tekstassets en Final URL-expansie standaard aan bij het aanmaken van een nieuwe Search-campagne. Bestaande campagnes veranderen niet, maar wie in bulk campagnes opzet, moet de vinkjes bewust nalopen.",
+          "impact": "hoog",
+          "sources": [{"name": "Every Google Ads Change in 2026", "url": "https://commonthreadco.com/blogs/coachs-corner/google-ads-changes-2026"}]
+        },
+        {
+          "title": "Travel-campagnes migreren naar Search campaigns for Travel",
+          "summary": "Google begint met de migratie van Travel-campagnes naar de nieuwe Search campaigns for Travel. Er verschenen ook helpdocumenten over AI Max for Search voor reisadverteerders.",
+          "impact": "laag",
+          "sources": [{"name": "Every Google Ads Change in 2026", "url": "https://commonthreadco.com/blogs/coachs-corner/google-ads-changes-2026"}]
+        }
+      ]
+    },
+    {
+      "name": "Meta",
+      "items": [
+        {
+          "title": "Meta pauzeert aangepaste advertentievoorwaarden",
+          "summary": "Volgens de nieuwste bronnen heeft Meta de geplande updates van de Commercial Terms, Product Catalog Terms, Self-Serve Ad Terms en Ad Creative Generative AI Terms uitgesteld. Ze gaan dus niet in op 20 november. Oudere artikelen noemen die datum nog wel, dus controleer het Business Help Center.",
+          "impact": "middel",
+          "sources": [{"name": "Madgicx", "url": "https://madgicx.com/blog/meta-ad-terms-update"}]
+        },
+        {
+          "title": "Pixel-instelling voor meting op het apparaat staat aan",
+          "summary": "Sinds 12 november staat een instelling aan die extra conversies op het apparaat van de klant meet. Bronnen spreken elkaar tegen over de reikwijdte: één zegt dat de instelling standaard aan staat en per dataset uit te zetten is, een ander dat EU en VK zijn uitgezonderd. Verwacht een verschuiving in gerapporteerde conversies.",
+          "impact": "middel",
+          "sources": [{"name": "Every Meta Ads Change in 2026", "url": "https://commonthreadco.com/blogs/coachs-corner/meta-ads-changes-2026"}]
+        }
+      ]
+    },
+    {
+      "name": "TikTok, LinkedIn & overig social",
+      "items": [
+        {
+          "title": "TikTok: Buy Direct, Smart+ voor zoekadvertenties en Ad Network in de VS",
+          "summary": "TikTok kondigde tijdens Advertising Week New York aan dat mensen direct vanuit de For You-feed kunnen kopen en dat er een Shopping Assistant komt. Het Ad Network (bijna 400.000 apps) is opengesteld voor Amerikaanse adverteerders en er is een Smart+-campagne voor search ads. De beschikbaarheid in Nederland is niet bevestigd.",
+          "impact": "laag",
+          "sources": [{"name": "Gain Blog", "url": "https://blog.gainapp.com/social-media-updates/"}]
+        },
+        {
+          "title": "Pinterest: Programmatic Deals breed beschikbaar",
+          "summary": "Pinterest maakte Programmatic Deals algemeen beschikbaar in Noord-Amerika, Zuid-Amerika en Azië-Pacific, via partners als Magnite en Google DV360. Europa staat niet in de opsomming.",
+          "impact": "laag",
+          "sources": [{"name": "Social media updates 2026 (Emplifi)", "url": "https://emplifi.io/resources/social-media-updates/"}]
+        },
+        {
+          "title": "Databricks: waardegewogen conversiesignalen naar negen advertentieplatforms",
+          "summary": "Op 19 november kondigde Databricks CustomerLake Conversions aan. Daarmee kunnen merken waardegewogen conversiesignalen naar onder meer Google, Meta, LinkedIn, Microsoft, TikTok, Snapchat, Reddit en Amazon Ads sturen. Een releasedatum is niet genoemd.",
+          "impact": "laag",
+          "sources": [{"name": "PPC Land", "url": "https://ppc.land/databricks-lines-up-nine-ad-platforms-for-its-customer-value-signals/"}]
+        }
+      ]
+    },
+    {
+      "name": "Microsoft Advertising",
+      "items": [
+        {
+          "title": "Discover-feed toont 35% minder advertenties per pagina",
+          "summary": "Microsoft introduceert een AI-gecureerde Discover-feed op de nieuwe tabpagina van Edge en in Windows. Volgens Microsoft zijn er 35% minder ads per pagina dan in de klassieke MSN-ervaring; dat cijfer is van Microsoft zelf.",
+          "impact": "laag",
+          "sources": [{"name": "PPC Land", "url": "https://ppc.land/microsoft-cuts-ads-per-page-35-in-its-new-discover-feed/"}]
+        },
+        {
+          "title": "Storing op 16 november kan advertentieverkeer hebben gedrukt",
+          "summary": "Het platform bleef volgens Microsoft draaien, maar door problemen met Outlook kunnen er minder advertentieverzoeken binnen zijn gekomen. Kijk hier rekening mee als je data van die dag vergelijkt.",
+          "impact": "laag",
+          "sources": [{"name": "MediaPost", "url": "https://www.mediapost.com/publications/article/419458/microsoft-advertising-may-have-lost-ad-revenue-dur.html?edition=144481"}]
+        }
+      ]
+    },
+    {
+      "name": "Privacy & regelgeving",
+      "items": [
+        {
+          "title": "EDPB: richtlijnen voor 'consent or pay' komen binnenkort",
+          "summary": "De voorzitter van de EDPB zei op 19 november tegen MLex dat toezichthouders binnenkort richtlijnen verwachten voor betaal-of-accepteer-modellen. Dat raakt de manier waarop Meta in de EU omgaat met gepersonaliseerde advertenties.",
+          "impact": "middel",
+          "sources": [{"name": "MLex", "url": "https://mlex.com/mlex/data-privacy-security/articles/2552446"}]
+        },
+        {
+          "title": "EU-Raad wil cookie-toestemming minder vaak opnieuw vragen",
+          "summary": "In het onderhandelingsmandaat van de Raad over de Digital Omnibus blijven cookieregels in de ePrivacyrichtlijn. Er komen uitzonderingen, zoals het meten van contextuele advertenties, en de wachttijd voordat je na een weigering opnieuw mag vragen gaat naar vier maanden. De onderhandelingen met het Parlement moeten nog beginnen.",
+          "impact": "laag",
+          "sources": [{"name": "PPC Land", "url": "https://ppc.land/eu-council-draft-cuts-cookie-consent-re-ask-wait-to-four-months/"}]
+        },
+        {
+          "title": "Studie voor Commissie: DMA maakte advertentiemarkt nog niet concurrerender",
+          "summary": "Volgens berichtgeving van 17 november concludeert een in opdracht van de Europese Commissie uitgevoerde studie dat de DMA de advertentiemarkt tot nu toe niet concurrerender of transparanter heeft gemaakt. De studie pleit voor strengere regels rond toestemming bij gatekeepers.",
+          "impact": "laag",
+          "sources": [{"name": "The Media Leader", "url": "https://uk.themedialeader.com/digital-markets-act-has-been-ineffective-european-commission-advised"}]
+        }
+      ]
+    },
+    {
+      "name": "Nederland",
+      "items": [
+        {
+          "title": "Adverteren in ChatGPT: duur voor wat het oplevert",
+          "summary": "Adformatie meldt op basis van onderzoek dat adverteren in ChatGPT duur is voor het resultaat. Emerce schrijft dat ChatGPT sinds eind augustus advertenties toont aan Nederlandse gebruikers en dat Emerce Academy er een training over aanbiedt.",
+          "impact": "middel",
+          "sources": [
+            {"name": "Adformatie", "url": "https://www.adformatie.nl/nieuws"},
+            {"name": "Emerce", "url": "https://www.emerce.nl/nieuws/emerce-academy-start-training-chatgpt-ads"}
+          ]
+        },
+        {
+          "title": "Buitenreclame levert meer omzet per euro dan Meta en online video",
+          "summary": "Onderzoek van 12 november, door Adformatie opgepakt, zet buitenreclame boven Meta, tv en online video qua omzet per geïnvesteerde euro. Zoek de onderzoeksopzet op voordat je dit in een klantgesprek gebruikt.",
+          "impact": "laag",
+          "sources": [{"name": "Adformatie", "url": "https://www.adformatie.nl/nieuws"}]
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {"title": "Google rolt op 10 november de November 2026 core update uit", "source": "Every Google Ads Change in 2026 / zoeknieuws", "url": "https://commonthreadco.com/blogs/coachs-corner/google-ads-changes-2026"},
+    {"title": "Reddit test Reddit Reviews (10 november, alleen VS)", "source": "Social media bites, week 47", "url": "https://www.kontentino.com/blog/social-media-bites-november-2026-week-47/"},
+    {"title": "Xbox Video for Brands: niet-overslaanbare video voor cloud-gaming", "source": "Relevant Audience", "url": "https://www.relevantaudience.com/microsoft-ads/microsoft-ads-bing-ai-overviews-ads-november-2026/"}
+  ],
+  "actions": [
+    "Zet in Microsoft Ads een vergelijkingsbasis neer voor campagnes met Maximize Conversion Value of Target ROAS voordat het nieuwe biedmodel doorwerkt.",
+    "Controleer of AI Max- en PMax-campagnes in Microsoft Ads ongewild in Bing AI Overviews meedraaien, en stel URL-inclusies bewust in.",
+    "Loop de AI Max-vinkjes na bij elke nieuwe Search-campagne die in Ads Editor 2.14 wordt aangemaakt.",
+    "Controleer of de Pixel-instelling voor meting op het apparaat bij Meta-klanten aan staat en leg vast wat dat doet met de gerapporteerde conversies.",
+    "Test bij klanten met een eigen hashing-pipeline of uploads naar Google Ads Data Manager nog goed gaan."
+  ]
+}
