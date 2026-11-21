@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-21",
+  "lead": {
+    "kicker": "Privacy & regelgeving · Cookies",
+    "title": "CNIL deelt 38 nieuwe sancties uit, cookies blijven een handhavingsthema",
+    "summary": [
+      "De Franse toezichthouder CNIL maakte op 17 november bekend dat zij tussen juni en oktober 38 sancties in de vereenvoudigde procedure heeft opgelegd, samen goed voor 302.800 euro. Het gaat om cookies, beveiliging, commerciële benadering en onvoldoende medewerking aan het onderzoek. Dat brengt het totaal sinds begin 2026 op 61. Bij cookies gaat het volgens vakmedia om onvolledige banners en om trackers die vóór toestemming of na weigering al geladen worden.",
+      "Los daarvan legde de CNIL op 22 oktober een boete van 7 miljoen euro op aan Fnac Darty-entiteiten voor cookie-overtredingen. Dat staat buiten deze batch. In de vereenvoudigde procedure ligt het maximum op 20.000 euro per zaak en worden organisaties niet bij naam genoemd. Het gaat om Franse handhaving, maar de normen (geen tags vóór toestemming, weigeren even makkelijk als accepteren) gelden in de hele EU en dus ook voor onze klanten."
+    ],
+    "why": "Doe een snelle steekproef op klantsites: laden advertentietags (Google Ads, Meta Pixel, TikTok) vóór toestemming of nadat iemand weigert? Controleer ook of Consent Mode correct de keuze doorgeeft. Doe dit vóór de Black Friday-drukte, als er veel verkeer en veel wijzigingen zijn.",
+    "sources": [
+      {"name": "CNIL", "url": "https://cnil.fr/fr/node/169161"},
+      {"name": "Leto Legal", "url": "https://www.leto.legal/news/cnil-38-sanctions-procedure-simplifiee-juin-octobre-2026"},
+      {"name": "Economie Matin", "url": "https://www.economiematin.fr/?p=242495"}
+    ]
+  },
+  "sections": [
+    {
+      "name": "Google Ads",
+      "items": [
+        {
+          "title": "Performance Max: Channel Prioritization en Promo Mode in het setupscherm",
+          "summary": "Search Engine Roundtable meldt op 18 november dat Channel Prioritization en Promo Mode nu bij het opzetten van een nieuwe PMax-campagne onder Budget staan. Met het eerste weeg je kanalen en geef je ze een budgetaandeel, met het tweede versoepel je kort de ROAS-doelstelling en voeg je extra dagbudget toe. De functies zelf zijn niet nieuw, alleen hun plek in het setupscherm. Ik vond geen officiële Google-aankondiging, dus controleer het in je eigen account.",
+          "impact": "middel",
+          "sources": [{"name": "Search Engine Roundtable", "url": "https://seroundtable.com/google-ads-pmax-setup-update-42561.html"}]
+        }
+      ]
+    },
+    {
+      "name": "TikTok, LinkedIn & overig social",
+      "items": [
+        {
+          "title": "Reddit: Max-campagnes voor alle adverteerders, test met ads in zoekresultaten",
+          "summary": "Reddit maakte zijn geautomatiseerde Max-campagnes breed beschikbaar, inclusief API-toegang en rapportage per assetgroep. De eigen cijfers (17% lagere kosten, 27% meer conversies) komen uit 17 splittests zonder vermelde branches of budgetten. Zie ze dus als reden om te testen. Daarnaast test Reddit advertenties in de eigen zoekresultaten met een select groepje adverteerders. De bronnen spreken elkaar tegen over het exacte moment van de brede uitrol.",
+          "impact": "laag",
+          "sources": [
+            {"name": "MediaPost", "url": "https://www.mediapost.com/publications/article/417702/reddit-opens-up-max-campaigns-to-all-advertisers.html"},
+            {"name": "Search Engine Journal", "url": "https://www.searchenginejournal.com/reddit-begins-testing-ads-in-its-own-search-results/"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Privacy & regelgeving",
+      "items": [
+        {
+          "title": "Californië start regelgeving rond opt-out-signalen zoals Global Privacy Control",
+          "summary": "De Californische privacytoezichthouder stemde op 6 november voor het starten van regelgeving over opt-out-signalen. Volgens een juridische analyse mag een consentplatform advertentiecookies niet laden voordat het op een GPC-signaal heeft gecontroleerd. De publieke consultatie loopt tot 6 januari 2027. Relevant voor klanten met Amerikaans verkeer.",
+          "impact": "laag",
+          "sources": [{"name": "Wilson Sonsini", "url": "https://wsgr.com/en/insights/calprivacy-signals-a-harder-line-on-gpc-cookie-banners-and-data-broker-deletions-takeaways-from-november-board-meeting.html"}]
+        }
+      ]
+    },
+    {
+      "name": "Nederland",
+      "items": [
+        {
+          "title": "Sijthoff neemt Frankwatching over; AI Marketing Event op 26 november",
+          "summary": "Uitgeverij Sijthoff, ook uitgever van Adformatie, heeft Frankwatching overgenomen voor een niet genoemd bedrag. Frankwatching blijft onder eigen naam doorgaan. Het AI Marketing Event staat volgens de agenda gepland op 26 november in de Jaarbeurs in Utrecht. De agendapagina leek een oudere momentopname, dus controleer de datum voordat je iemand inschrijft.",
+          "impact": "laag",
+          "sources": [
+            {"name": "Adformatie", "url": "https://www.adformatie.nl/media/media/sijthoff-neemt-frankwatching-over"},
+            {"name": "Frankwatching", "url": "https://events.frankwatching.com/aimarketingevent/"}
+          ]
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {"title": "Meta test First Impression Ads, Ads Super Burst en Reels Trending Ads", "source": "Marketing Changes in November 2026 (CME Media)", "url": "https://cmemedia.com/digital-marketing-changes-november-2026/"},
+    {"title": "Google voegt politieke-inhoud-uitzondering toe voor Amerikaanse verkiezingsadvertentie-verificatie", "source": "Marketing Changes in November 2026 (CME Media)", "url": "https://cmemedia.com/digital-marketing-changes-november-2026/"},
+    {"title": "LinkedIn breidt CTV-advertenties uit naar het VK met targeting op functie en sector", "source": "Social media bites, week 47 (Kontentino)", "url": "https://www.kontentino.com/blog/social-media-bites-november-2026-week-47/"}
+  ],
+  "actions": [
+    "Steekproef op consent: laden ad-tags op klantsites vóór toestemming of na weigering? Controleer Consent Mode.",
+    "Controleer in nieuwe PMax-campagnes of Channel Prioritization en Promo Mode bewust zijn ingesteld voor de Black Friday-periode.",
+    "Controleer in Ads Manager of de Meta-voorwaarden en placementinstellingen van klanten nog kloppen (zie ook editie van 17 en 20 november)."
+  ]
+}
