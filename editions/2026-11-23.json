@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-23",
+  "lead": {
+    "kicker": "Meta & Google · Black Friday",
+    "title": "Black Friday-week: Meta-kosten lopen op, kijk naar kosten per aankoop in plaats van CPM",
+    "summary": [
+      "Black Friday valt dit jaar op 27 november. Cijfers uit 2025 van Lebesgue laten zien dat de mediane Meta-CPM in Black Friday-week 59% boven het septemberniveau lag en op de dag zelf 84%. In 2025 begon de stijging rond de week van 10 november. Het zijn cijfers van vorig jaar en van één databron, dus lees ze als richting en niet als voorspelling voor dit jaar.",
+      "PPC Land schreef over 2025 dat de kosten per order in Black Friday-week juist daalden, en dat zoek-CPM's rond de 13 euro lagen. Hogere CPM's zeggen dus niet automatisch iets over rendement. Voor 2026 vond ik geen betrouwbare harde CPM-cijfers."
+    ],
+    "why": "Stuur deze week op kosten per aankoop en ROAS, niet op CPM. Spreek met klanten af wanneer we budgetten en doelen aanpassen, en houd wijzigingen aan campagnes tijdens de piekdagen (27 tot en met 30 november) beperkt, zodat leerfases niet opnieuw beginnen.",
+    "sources": [
+      {"name": "Lebesgue", "url": "https://lebesgue.io/facebook-ads/are-meta-ads-worth-it-black-friday"},
+      {"name": "PPC Land", "url": "https://ppc.land/cost-per-order-drops-18-in-2025-black-friday-week-billy-grace-finds/"}
+    ]
+  },
+  "sections": [
+    {
+      "name": "Google Ads",
+      "items": [
+        {
+          "title": "PMax: schakelaar 'Sourced videos' staat standaard aan",
+          "summary": "Volgens een overzicht van Google Ads-wijzigingen is er per PMax-campagne een schakelaar 'Sourced videos' bijgekomen die standaard aan staat en mogelijk al actief is op bestaande campagnes. Ik vond hiervoor geen officiële Google-aankondiging.",
+          "impact": "middel",
+          "sources": [{"name": "Every Google Ads Change in 2026", "url": "https://commonthreadco.com/blogs/coachs-corner/google-ads-changes-2026"}]
+        },
+        {
+          "title": "Attributed Branded Searches: nog beta, bronnen spreken elkaar tegen over de meetperiode",
+          "summary": "De meting van merkzoekopdrachten na het zien van een YouTube- of Demand Gen-advertentie staat in de Google-hulppagina nog als beta. Over de attributieperiode lopen de bronnen uiteen (zeven dagen tegenover 30 dagen view-through), en Performance Max wordt in de huidige documentatie niet meer genoemd. Controleer de hulppagina voordat je cijfers aan klanten rapporteert.",
+          "impact": "laag",
+          "sources": [
+            {"name": "Google Ads Help", "url": "https://support.google.com/google-ads/answer/16212033"},
+            {"name": "Search Engine Land", "url": "https://searchengineland.com/google-ads-attributed-branded-searches-measure-brand-impact-499987"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Microsoft Advertising",
+      "items": [
+        {
+          "title": "Nieuwe biedmodellen worden gefaseerd uitgerold",
+          "summary": "Microsoft meldde op 18 november de nieuwe biedmodellen. Ze worden automatisch uitgerold, dus uitgaven en doelsturing kunnen veranderen zonder dat jij iets aanpast. De genoemde winst (zoals circa 10% meer conversiewaarde per klik) komt uit Microsofts eigen, niet gepubliceerde data. Eerder genoemd in de vorige edities; nieuw is de waarschuwing om accounts tijdens de uitrol te volgen.",
+          "impact": "middel",
+          "sources": [
+            {"name": "PPC Land", "url": "https://ppc.land/microsoft-rebuilds-its-bid-model-citing-10-more-value-per-click/"},
+            {"name": "Search Engine Roundtable", "url": "https://seroundtable.com/microsoft-advertising-bidding-models-update-42567.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Privacy & regelgeving",
+      "items": [
+        {
+          "title": "Nederlandse AP: weigeren van cookies moet even makkelijk zijn als accepteren",
+          "summary": "Volgens een Europese privacy-update van Gibson Dunn stelt de Autoriteit Persoonsgegevens dat een direct zichtbare weigerknop naast de acceptatieknop moet staan. Ik heb de bron zelf alleen in zoekresultaten gezien, dus lees de details daar na.",
+          "impact": "middel",
+          "sources": [{"name": "Gibson Dunn", "url": "https://www.gibsondunn.com/gibson-dunn-europe-data-protection-november-2026/"}]
+        }
+      ]
+    },
+    {
+      "name": "Nederland",
+      "items": [
+        {
+          "title": "Mediabureaus besparen uren met AI-koppeling voor campagnedata",
+          "summary": "Emerce meldt op 23 november dat mediabureaus met AI-gestuurd campagnebeheer volgens technologieleverancier Adform en diens klanten uren per dag besparen. Dit is een leveranciersverhaal, dus de besparing is niet onafhankelijk getoetst.",
+          "impact": "laag",
+          "sources": [{"name": "Emerce", "url": "https://www.emerce.nl/nieuws/mediabureaus-besparen-uren-aikoppeling-campagnedata"}]
+        },
+        {
+          "title": "Adverteren in ChatGPT is in Nederland live; Emerce Academy start training",
+          "summary": "Volgens Emerce toont ChatGPT sinds eind augustus advertenties aan Nederlandse gebruikers en kunnen merken sinds begin september zelf campagnes opzetten. Emerce Academy biedt hiervoor nu een training aan.",
+          "impact": "laag",
+          "sources": [{"name": "Emerce", "url": "https://www.emerce.nl/nieuws/emerce-academy-start-training-chatgpt-ads"}]
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {"title": "Snapchat breidt creator-advertentieopties uit", "source": "PR Daily", "url": "https://www.prdaily.com/social-media-updates-and-new-features-to-know-this-week-47/"}
+  ],
+  "actions": [
+    "Stem met klanten af hoe we Black Friday-week (27 tot en met 30 november) sturen: doelen op kosten per aankoop/ROAS, en geen grote wijzigingen tijdens de piek.",
+    "Volg Microsoft Advertising-accounts met automatisch bieden de komende weken op uitgaven en doelbereik.",
+    "Controleer op PMax-campagnes of de schakelaar 'Sourced videos' aan staat en of dat gewenst is."
+  ]
+}
