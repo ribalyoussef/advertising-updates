@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-24",
+  "lead": {
+    "kicker": "Meta · Plaatsingen en voorwaarden",
+    "title": "Meta haalt handmatige plaatsingskeuze weg bij Sales-, Leads- en App-campagnes",
+    "summary": [
+      "Volgens meerdere changelogs van derden verwijdert Meta gefaseerd de mogelijkheid om op adsetniveau handmatig plaatsingen te kiezen voor campagnes met de doelen Sales, Leads en App promotion. Bij Awareness en Traffic blijft handmatige selectie bestaan. De uitrol verloopt per account, dus het kan zijn dat je het in sommige accounts nog niet ziet.",
+      "Daarnaast lopen de bronnen uiteen over de nieuwe Commercial en Self-Serve Ad Terms, die per 20 november zouden ingaan. Twee recentere bronnen melden dat Meta de wijziging heeft gepauzeerd, maar dat kon ik niet op Meta's eigen pagina's bevestigen. Meta's Business Help Center was in deze run niet bereikbaar. Behandel alles hier als ongeverifieerd tot je het in Ads Manager of het Help Center hebt gezien."
+    ],
+    "why": "Controleer vóór de Black Friday-piek (27 tot en met 30 november) per klantaccount of plaatsingsinstellingen nog kloppen, vooral bij Sales-campagnes met uitgesloten plaatsingen. Leg ook vast welke versie van de advertentievoorwaarden voor elke klant geldt.",
+    "sources": [
+      {"name": "Every Meta Ads Change in 2026", "url": "https://commonthreadco.com/blogs/coachs-corner/meta-ads-changes-2026"},
+      {"name": "Socially Aligned", "url": "https://sociallyaligned.com/meta-ads-updates-november-2026/"}
+    ]
+  },
+  "sections": [
+    {
+      "name": "Google Ads",
+      "items": [
+        {
+          "title": "PMax-instelscherm krijgt Channel Prioritization en Promo Mode",
+          "summary": "Search Engine Roundtable meldde op 18 november twee nieuwe opties in de PMax-setup: Channel Prioritization en Promo Mode. Details over werking en beschikbaarheid heb ik niet kunnen controleren. Kijk in je accounts of de opties zichtbaar zijn en wat de standaardinstelling is.",
+          "impact": "middel",
+          "sources": [{"name": "Search Engine Roundtable, dagoverzicht 18 november", "url": "https://www.seroundtable.com/recap-11-18-2026-42565.html"}]
+        },
+        {
+          "title": "Hotelcampagnes migreren in Q4 naar Search-campagnes voor Travel",
+          "summary": "Volgens een nieuwsoverzicht verhuist Google travelcampagnes naar de nieuwe Search campaigns for Travel, met hotelcampagnes in het vierde kwartaal van 2026. Er zijn ook helpdocumenten over AI Max for Search voor Travel verschenen. Relevant voor klanten in de reissector.",
+          "impact": "laag",
+          "sources": [{"name": "Google Ads News, november 2026", "url": "https://blog.mean.ceo/google-ads-news-november-2026/"}]
+        },
+        {
+          "title": "Data Manager vraagt geen SHA-256-hashing meer vooraf",
+          "summary": "Sinds 16 november hoeft klantdata in Google Ads Data Manager volgens hetzelfde overzicht niet meer vooraf met SHA-256 te worden gehasht. Dat vereenvoudigt uploads van first-party data. Controleer wel zelf of je privacy- en dataverwerkingsafspraken met klanten nog kloppen.",
+          "impact": "laag",
+          "sources": [{"name": "Google Ads News, november 2026", "url": "https://blog.mean.ceo/google-ads-news-november-2026/"}]
+        }
+      ]
+    },
+    {
+      "name": "TikTok, LinkedIn & overig social",
+      "items": [
+        {
+          "title": "LinkedIn Marketing API: vanaf versie 202611 verplicht surface-veld",
+          "summary": "Volgens de wijzigingslijst van LinkedIn moet bij publisher lists vanaf versie 202611 een surface-veld worden opgegeven (LinkedIn Audience Network of Connected TV). Versie 202511 zou op 16 november zijn uitgefaseerd. Alleen relevant als wij of een tool van ons de API direct gebruiken.",
+          "impact": "laag",
+          "sources": [{"name": "LinkedIn Marketing API, recente wijzigingen", "url": "https://learn.microsoft.com/en-us/linkedin/marketing/integrations/recent-changes?view=li-lms-2026-09"}]
+        },
+        {
+          "title": "TikTok kondigt AI-tools voor shopping en leads aan",
+          "summary": "Secundaire bronnen noemen onder meer Buy Direct (checkout in de app), een Shopping Assistant, Agentic Leads en een Pro-versie van GMV Max. Beschikbaarheid buiten de VS is onduidelijk. Nog niets om op te sturen, wel om te volgen.",
+          "impact": "laag",
+          "sources": [{"name": "Social media updates 2026 (Gain)", "url": "https://blog.gainapp.com/social-media-updates/"}]
+        }
+      ]
+    },
+    {
+      "name": "Microsoft Advertising",
+      "items": [
+        {
+          "title": "Biedupgrade: geen vaste startdatum, uitrol loopt al sinds de zomer",
+          "summary": "PPC Land meldt, op basis van een bericht van Microsofts Ads Liaison van 23 november, dat de biedupgrade al sinds de zomer wordt uitgerold en geen enkele go-livedatum heeft. Dat nuanceert de eerdere melding van 18 november. Ik kon het artikel zelf niet openen, dus dit komt uit de zoekresultaten.",
+          "impact": "laag",
+          "sources": [{"name": "PPC Land", "url": "https://ppc.land/microsoft-says-its-bidding-upgrade-started-in-summer-not-november-18/"}]
+        }
+      ]
+    },
+    {
+      "name": "Privacy & regelgeving",
+      "items": [
+        {
+          "title": "EU-Raad: uitzondering op cookietoestemming voor meten van contextuele advertenties",
+          "summary": "Volgens PPC Land wil het Raadsvoorstel (Digital Omnibus) uitzonderingen op toestemming toevoegen, waaronder voor het meten van contextuele advertenties, en de wachttijd voor opnieuw vragen na een weigering terugbrengen van zes naar vier maanden. Het wordt nu onderwerp van onderhandelingen met het Parlement, dus het is nog geen wet.",
+          "impact": "laag",
+          "sources": [{"name": "PPC Land", "url": "https://ppc.land/eu-council-draft-cuts-cookie-consent-re-ask-wait-to-four-months/"}]
+        }
+      ]
+    },
+    {
+      "name": "Nederland",
+      "items": [
+        {
+          "title": "Adverteren in ChatGPT: onderzoek vindt het te duur voor wat het oplevert",
+          "summary": "Adformatie schrijft dat uitgebreid onderzoek adverteren in ChatGPT te duur vindt voor het resultaat. Ik kon het artikel niet openen en heb alleen de samenvatting uit de zoekresultaten gezien.",
+          "impact": "laag",
+          "sources": [{"name": "Adformatie nieuws", "url": "https://www.adformatie.nl/nieuws"}]
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {"title": "Mediabureaus besparen uren met AI-koppeling voor campagnedata", "source": "Emerce, 23 november", "url": "https://www.emerce.nl/nieuws/mediabureaus-besparen-uit-aikoppeling-campagnedata"},
+    {"title": "Onderzoek: 115 van 165 cookiebanners op EU-sites gebruiken dark patterns", "source": "The Register, 17 november", "url": "https://theregister.com/legal/2026/11/17/website-owners-thumb-their-noses-at-eu-privacy-rules-researcher-finds/5310265"}
+  ],
+  "actions": [
+    "Controleer vóór donderdag per klantaccount de Meta-plaatsingsinstellingen bij Sales- en Leads-campagnes.",
+    "Verifieer de status van de Meta-advertentievoorwaarden in het Business Help Center en meld het in het teamkanaal.",
+    "Check of Channel Prioritization en Promo Mode zichtbaar zijn in onze PMax-campagnes en laat ze voor Black Friday op de huidige instelling staan."
+  ]
+}
