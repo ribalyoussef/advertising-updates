@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-25",
+  "lead": {
+    "kicker": "Pinterest · Microsoft Advertising",
+    "title": "Pinterest opent advertentieruimte voor Microsoft Advertising-adverteerders",
+    "summary": [
+      "Rond 23 november werd bekend dat adverteerders via Microsoft Advertising hun bestaande campagnes kunnen uitbreiden naar Pinterest: de homefeed, zoekresultaten en gerelateerde Pins. Het inkopen gaat via Microsofts bestaande programmatic-infrastructuur, dus zonder nieuwe tool. De advertenties zien eruit als gewone Pins. Pinterest wil hiermee een groter deel van de zoekbudgetten binnenhalen.",
+      "De start is beperkt tot Noord-Amerika, Australië en Nieuw-Zeeland. Een startdatum voor andere regio's is niet genoemd, en Microsoft heeft volgens de gevonden berichten zelf nog geen documentatie gepubliceerd. Ik kon de artikelen in deze run niet openen (de sites waren niet bereikbaar); dit komt uit de samenvattingen van zoekresultaten van Ad Age, MediaPost en PPC Land."
+    ],
+    "why": "Voor Nederlandse klanten is dit nog niet beschikbaar. Wel handig om te volgen als Microsoft Advertising al in de mediamix zit: Pinterest kan daar een extra bereikskanaal worden zonder aparte campagneopzet.",
+    "sources": [
+      {"name": "Ad Age", "url": "https://adage.com/technology/ad-tech/aa-pinterest-microsoft-search-advertising/"},
+      {"name": "PPC Land", "url": "https://ppc.land/pinterest-sells-feed-and-search-ad-space-through-microsoft-advertising/"},
+      {"name": "MediaPost", "url": "https://www.mediapost.com/publications/article/419623/pinterest-expands-search-advertising-through-micro.html"}
+    ]
+  },
+  "sections": [
+    {"name": "Google Ads", "items": [
+      {"title": "Elke Google-tag wordt een Tag Manager-container; eerste upgrades in januari 2027", "summary": "Volgens een weekoverzicht van JXT Group staat in de release notes van Tag Manager dat elke Google-tag een Tag Manager-container wordt, en dat sommige installaties in januari 2027 worden geüpgraded. Ik kon de officiële release note niet openen, dus de precieze reikwijdte is onbevestigd.", "impact": "middel", "sources": [{"name": "JXT Group, wekelijks overzicht 18-23 november", "url": "https://www.jxtgroup.com/this-week-google-meta-ads-nov-23-2026/"}]},
+      {"title": "Channel Prioritization en Budget Allocation worden wereldwijd uitgerold", "summary": "Ignite Visibility meldt dat deze kanaalcontroles worden uitgerold voor Search, Shopping, Performance Max en Demand Gen. Dit sluit aan op wat Search Engine Roundtable op 18 november zag in het PMax-instelscherm. Of de uitrol al in onze accounts zit, moet je zelf nagaan.", "impact": "middel", "sources": [{"name": "Ignite Visibility, nieuwsoverzicht", "url": "https://ignitevisibility.com/digital-marketing-news/"}]},
+      {"title": "Merchant Center: tijdelijke aanbieding mag niet langer dan 30 dagen lopen", "summary": "Een helpnotitie van Google zegt dat een actieprijs niet langer dan 30 dagen zou moeten lopen om als tijdelijke korting te tellen. Google gebruikt 'should' en zegt niet wat er bij langere acties gebeurt. Relevant voor feeds van webshops in de Black Friday-periode.", "impact": "middel", "sources": [{"name": "JXT Group, wekelijks overzicht 18-23 november", "url": "https://www.jxtgroup.com/this-week-google-meta-ads-nov-23-2026/"}]},
+      {"title": "Shopping-advertenties kunnen afgeronde verkoopaantallen tonen", "summary": "Een nieuwe helppagina beschrijft dat geschikte Shopping-advertenties een label als '100+ verkocht in de afgelopen 30 dagen' kunnen krijgen, mits er winkelwagendata wordt aangeleverd. Beschikbaarheid per land heb ik niet kunnen controleren.", "impact": "laag", "sources": [{"name": "JXT Group, wekelijks overzicht 18-23 november", "url": "https://www.jxtgroup.com/this-week-google-meta-ads-nov-23-2026/"}]},
+      {"title": "Google Ads Editor 2.14 zet AI Max standaard aan voor nieuwe Search-campagnes", "summary": "Nieuwe Search-campagnes die in Editor worden aangemaakt krijgen volgens JXT AI Max standaard aan; bestaande campagnes veranderen niet. Let hierop bij bulkopzet van campagnes.", "impact": "middel", "sources": [{"name": "JXT Group, wekelijks overzicht 11-17 november", "url": "https://www.jxtgroup.com/this-week-google-meta-ads-nov-17-2026/"}]}
+    ]},
+    {"name": "Meta", "items": [
+      {"title": "Meta geeft bijgewerkte richtlijnen voor plaatsingscontrole", "summary": "Social Media Today schreef over nieuwe Meta-adviezen nu handmatige plaatsingskeuze verdwijnt bij een aantal doelstellingen. Samenvattingen noemen als alternatief: media per plaatsing aanpassen en uitsluitingen op accountniveau gebruiken. Ik kon het artikel zelf niet openen. Zie ook het hoofdartikel van gisteren.", "impact": "middel", "sources": [{"name": "Social Media Today", "url": "https://www.socialmediatoday.com/news/meta-offers-updated-ad-placement-control-guidance/832791/"}]},
+      {"title": "Meta test First Impression Ads; Ads Super Burst gefaseerd naar algemene beschikbaarheid", "summary": "Volgens changelogs van derden test Meta een premium plek in de Facebook-feed (First Impression Ads), en komt Ads Super Burst deze maand gefaseerd beschikbaar. Beide zijn niet op Meta's eigen pagina's geverifieerd.", "impact": "laag", "sources": [{"name": "Meta Ads Updates, november 2026 (AdsUploader)", "url": "https://adsuploader.com/blog/meta-ads-updates"}]}
+    ]},
+    {"name": "Privacy & regelgeving", "items": [
+      {"title": "Digital Omnibus: Raad zou positie hebben bepaald, cookietoestemming voor advertenties blijft", "summary": "Meerdere vendorblogs melden dat advertentie- en retargetingcookies toestemming blijven vragen, met enkele smalle uitzonderingen zoals het meten van contextuele advertenties. Eén bron zegt dat de Raad op 21 oktober een positie vaststelde; andere bronnen zijn vager en spreken elkaar tegen over browsersignalen. Behandel het als nog niet definitief.", "impact": "laag", "sources": [{"name": "Digital Omnibus and cookies: status October 2026", "url": "https://cookiecrumbs.eu/blog/digital-omnibus-cookies.html"}, {"name": "Uniconsent", "url": "https://www.uniconsent.com/blog/digital-omnibus-cookie-rules"}]}
+    ]}
+  ],
+  "briefs": [
+    {"title": "Google: AI-advertenties met nagemaakte publieke figuren niet toegestaan, ook niet met AI-melding", "source": "JXT Group (geen officiële Google-aankondiging gevonden)", "url": "https://www.jxtgroup.com/this-week-google-meta-ads-nov-17-2026/"},
+    {"title": "Google zou gezondheidsadvertenties testen in AI Mode", "source": "Ignite Visibility", "url": "https://ignitevisibility.com/digital-marketing-news/"}
+  ],
+  "actions": [
+    "Controleer bij webshopklanten of actieprijzen in de feed niet langer dan 30 dagen lopen voor de Black Friday-piek.",
+    "Kijk in de Google Ads-accounts of Channel Prioritization en Budget Allocation al zichtbaar zijn en wat de standaardinstelling is.",
+    "Controleer bij nieuwe Search-campagnes via Editor 2.14 of AI Max bewust aan of uit staat.",
+    "Plan een check van de Google-tag/Tag Manager-opzet bij klanten vóór januari 2027."
+  ]
+}
