@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-26",
+  "lead": {
+    "kicker": "Google Ads · Smart Bidding",
+    "title": "Google past de uitleg over de Smart Bidding-leerstatus aan: maximaal zeven dagen",
+    "summary": [
+      "Volgens Search Engine Roundtable heeft Google de helppagina over de leerperiode herschreven (nu 'About Smart Bidding learning'). De status 'Learning' zou nooit langer dan zeven dagen duren; eerder noemde de documentatie 7 tot 14 dagen. Google schrijft ook dat het algoritme blijft leren als de status al is verdwenen.",
+      "De bronnen spreken elkaar deels tegen over wat de status nog activeert. Een samenvatting noemt alleen nog een nieuwe strategie, doelwijzigingen en wijzigingen in de samenstelling van de campagne. Search Engine Roundtable noemt doelwijzigingen wel als oorzaak, een Duitse bron niet. Ik kon Google's pagina zelf in deze run niet openen. De wijziging stamt volgens de berichten uit oktober, maar is nog niet in onze krant verschenen."
+    ],
+    "why": "Gebruik 'Learning' niet meer als reden om een campagne dagenlang met rust te laten of juist te blijven aanpassen. Google blijft wel adviseren om niet meerdere doelwijzigingen binnen één conversiecyclus door te voeren. Zeker nu in Black Friday-week veel bureaus aan targets sleutelen.",
+    "sources": [
+      {"name": "Search Engine Roundtable", "url": "https://www.seroundtable.com/google-ads-updates-smart-bidding-doc-42345.html"},
+      {"name": "Google Ads Help", "url": "https://support.google.com/google-ads/answer/13020501"}
+    ]
+  },
+  "sections": [
+    {"name": "TikTok, LinkedIn & overig social", "items": [
+      {"title": "TikTok Search Ads: Impression Share, Top 1 Impression Share en keyword packs", "summary": "In de Q4-Product Preview (30 oktober) meldt TikTok twee nieuwe diagnostische metrics voor zoekcampagnes, op campagne-, adverteerders- en keywordniveau. Daarnaast zijn er kant-en-klare keyword packs (merk en categorie) die dagelijks worden ververst. Beschikbaarheid verschilt volgens TikTok per account, markt en campagnetype; of dit in Nederland live is, is niet bevestigd. De twee bronnen definiëren de metric iets anders.", "impact": "laag", "sources": [{"name": "Relevant Audience", "url": "https://www.relevantaudience.com/tiktok-ads/tiktok-q4-2026-product-preview-gmv-max-pro-search-impression-share/"}, {"name": "Search Engine Journal", "url": "https://searchenginejournal.com/tiktok-search-ads-brand-category-keyword-packs/595682"}]},
+      {"title": "LinkedIn werkt aan een 'monetization'-tab in profielanalyse", "summary": "Volgens Social Media Today komt er een apart tabblad met inkomstenmogelijkheden voor creators, met onder meer Creator Marketplace-gegevens. Het is nog niet duidelijk uitgerold en LinkedIn's eigen helppagina's beschrijven het nog niet. Vooral relevant voor wie met creators of employee advocacy werkt.", "impact": "laag", "sources": [{"name": "Social Media Today", "url": "https://socialmediatoday.com/news/linkedin-adds-monetization-tab-to-profile-analytics/874821"}]}
+    ]}
+  ],
+  "briefs": [
+    {"title": "Pinterest en Microsoft Advertising: dekking sinds maandag 23 november bevestigd door meerdere media", "source": "Social Media Today", "url": "https://www.socialmediatoday.com/news/pinterest-announces-partnership-with-microsoft-ads/875553/"}
+  ],
+  "actions": [
+    "Controleer bij Smart Bidding-campagnes of 'Learning' nog als blokkade in onze werkwijze of checklists staat, en pas dat aan naar Google's nieuwe uitleg.",
+    "Vermijd in de Black Friday-week meerdere target-CPA/ROAS-wijzigingen binnen één conversiecyclus."
+  ]
+}
